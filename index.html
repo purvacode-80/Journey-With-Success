@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Journey with Success | We're available for marketing</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="page.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!--
+    - Excel Spreadsheet Storage Path
+
+  -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.0/dist/xlsx.full.min.js"></script>
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo"> Journey With <br> Success </a>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="btn btn-primary" data-nav-link>Get Started</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle"> Journey With Success</p>
+
+            <h1 class="h1 hero-title">We are available for marketing</h1>
+
+            <p class="hero-text">
+                In the digital age, your online footprint is your most powerful asset. At Journey With Success , we harness the latest tools and trends to craft bespoke digital marketing solutions that drive results, engage your audience, and boost your brand visibility.
+            </p>
+
+            <a href="#contact" class="btn btn-primary" data-nav-link>Get Started</a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="https://www.edred.in/wp-content/uploads/2023/07/About-Digital-Marketing.jpeg" width="520" height="673" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <h2 class="h2 section-title">Services We Provided</h2>
+
+          <p class="section-text">
+            Me and my team provides you with th best possible service to help you grow your business.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #13c4a1">
+                  <ion-icon name="chatbox"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">SEO Optimization</a>
+                </h3>
+
+                <p class="card-text">
+                    Enhance your visibility on search engines through tailored SEO strategies that drive organic traffic.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #6610f2">
+                  <ion-icon name="desktop"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Digital Marketing</a>
+                </h3>
+
+                <p class="card-text">
+                    Engage with your audience and build your brand through targeted social media campaigns.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #ffb700">
+                  <ion-icon name="bulb"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title"> Content Creation </a>
+                </h3>
+
+                <p class="card-text">
+                    Attract and retain customers by creating and curating relevant and valuable content.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #fc3549">
+                  <ion-icon name="card-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">PPC (Pay-Per-Click Advertising)</a>
+                </h3>
+
+                <p class="card-text">
+                    Get immediate results with optimized PPC campaigns that maximize your ROI.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #00d280">
+                  <ion-icon name="archive"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Email Marketing</a>
+                </h3>
+
+                <p class="card-text">
+                    Keep your customers informed and engaged with customized email marketing campaigns.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #ff612f">
+                  <ion-icon name="heart"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title"> Web Design and Development</a>
+                </h3>
+
+                <p class="card-text">
+                    Build a stunning, user-friendly website that converts visitors into customers.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner img-holder" style=" --width: 720; --height: 850;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaQIIQaq1GB6mH7fBY-PL6IxiOFyurDCDYfA&s" width="720" height="960" loading="lazy" alt="about banner"
+              class="img-cover">
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">About Us</h2>
+
+            <p class="section-text">
+                We believe in creating marketing strategies that are not only innovative but also ethical and sustainable. Our team is dedicated to your success, providing personalized service and transparency every step of the way.
+            </p>
+
+            <h3 class="h3"> Our Team</h3>
+
+            <p class="section-text">
+                Meet the creative minds behind our success stories—a group of passionate digital marketing professionals dedicated to leveraging their expertise for your brand's growth.
+            </p>
+
+            <h3 class="h3">Case Study Highlights </h3>
+            <p class="section-text">
+                See how we've transformed businesses with our cutting-edge digital marketing solutions.
+            </p>
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                    <b> E-Commerce Growth : </b>
+                    How we increased online sales by 300% for a retail client through integrated SEO and content marketing strategies.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                    <b> Lead Generation : </b> 
+                    Showcasing a B2B client who experienced a 150% increase in qualified leads through targeted PPC campaigns.
+                </p>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="cta" style="background-image: url('./assets/images/cta-bg.jpg')">
+        <div class="container">
+
+          <p class="cta-subtitle">So What is Next?</p>
+
+          <h2 class="h2 section-title">Are You Ready? Let's get to Work!</h2>
+
+          <a href="#" class="btn btn-secondary">Get Started</a>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Let's Contact With Us</h2>
+
+          <form action="" class="contact-form" netlify>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" aria-label="name" placeholder="Your name*" required class="input-field">
+
+              <input type="email" name="email_address" aria-label="email" placeholder="Email address*" required
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <input type="text" name="subject" aria-label="subject" placeholder="Subject" class="input-field">
+
+              <input type="number" name="phone" aria-label="phone" placeholder="Phone number" class="input-field">
+            </div>
+
+            <textarea name="message" aria-label="message" placeholder="Your message...*" required
+              class="input-field"></textarea>
+
+            <div class="checkbox-wrapper">
+              <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
+
+              <label for="terms" class="label">
+                Accept Terms of Services and Privacy
+                  Policy</a>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+
+          </form>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Mail Here</h3>
+
+                 
+                  <a href="mailto:?to=jyotiradityagaykwad@gmail.com&subject=Hello%20from%20website&body=This%20is%20a%20test%20email%20from%20the%20website">Compose Email</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title"> Social Media</h3>
+
+                  <a href="https://www.instagram.com/jyotiradityagaykwad?igsh=MTRucjZnM25rdG42MQ=="> <ion-icon name="logo-instagram"> </ion-icon> Instagram  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Call Here</h3>
+
+                  <a href="tel:+918007896559" class="card-link"> Contact using Call </a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2022 All Rights Reserved by <a href="#" class="copyright-link"> JourneyWithSuccess </a>
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" aria-label="back to top" data-back-top-btn class="back-top-btn">
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="page.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
